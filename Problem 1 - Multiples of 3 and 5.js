@@ -1,6 +1,6 @@
 function multiplesOf3and5(number) {
-  totalMultiples = [];
-  count = 1;
+  let totalMultiples = [];
+  let count = 1;
   while (count !== number) {
     if (count % 3 === 0 || count % 5 === 0) {
       totalMultiples.push(count);
